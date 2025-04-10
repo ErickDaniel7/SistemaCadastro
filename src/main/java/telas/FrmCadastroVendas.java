@@ -38,7 +38,7 @@ public class FrmCadastroVendas extends javax.swing.JFrame {
     /**
      * Creates new form FrmCadastroVendas
      */
-    String strCaminhoArquivo = "C:\\Users\\erixk\\OneDrive\\Documentos\\CadastrarClientes\\CadastrarClientes\\src\\main\\java\\banco\\VENDAS.txt";
+    String strCaminhoArquivo = "src\\main\\java\\banco\\VENDAS.txt";
 
     public FrmCadastroVendas() {
         initComponents();
@@ -50,7 +50,7 @@ public class FrmCadastroVendas extends javax.swing.JFrame {
     
     private void carregarClientesNoComboBox() {
     DefaultComboBoxModel<String> modelo = new DefaultComboBoxModel<>();
-    String strCaminhoArquivo = "C:\\Users\\erixk\\OneDrive\\Documentos\\CadastrarClientes\\CadastrarClientes\\src\\main\\java\\banco\\CLIENTES.txt";
+    String strCaminhoArquivo = "src\\main\\java\\banco\\CLIENTES.txt";
     
     // Lê o arquivo e adiciona os nomes dos clientes ao ComboBox
     try (BufferedReader br = new BufferedReader(new FileReader(strCaminhoArquivo))) {
@@ -73,7 +73,7 @@ public class FrmCadastroVendas extends javax.swing.JFrame {
     
     private void carregarProdutosNoComboBox() {
     DefaultComboBoxModel<String> modelo = new DefaultComboBoxModel<>();
-    String strCaminhoArquivo = "C:\\Users\\erixk\\OneDrive\\Documentos\\CadastrarClientes\\CadastrarClientes\\src\\main\\java\\banco\\PRODUTOS.txt";
+    String strCaminhoArquivo = "src\\main\\java\\banco\\PRODUTOS.txt";
     
     // Lê o arquivo e adiciona os nomes dos produtos ao ComboBox
     try (BufferedReader br = new BufferedReader(new FileReader(strCaminhoArquivo))) {
