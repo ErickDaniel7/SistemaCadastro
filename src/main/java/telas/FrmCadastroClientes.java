@@ -38,7 +38,7 @@ public class FrmCadastroClientes extends javax.swing.JFrame {
     /**
      * Creates new form FrmCadastroClientes
      */
-    String strCaminhoArquivo = "C:\\Users\\erixk\\OneDrive\\Documentos\\CadastrarClientes\\CadastrarClientes\\src\\main\\java\\banco\\CLIENTES.txt";
+    String strCaminhoArquivo = "src\\main\\java\\banco\\CLIENTES.txt";
 
     public FrmCadastroClientes() {
         initComponents();
