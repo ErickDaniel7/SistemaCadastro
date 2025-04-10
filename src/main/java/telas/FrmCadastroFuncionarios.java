@@ -38,7 +38,7 @@ public class FrmCadastroFuncionarios extends javax.swing.JFrame {
     /**
      * Creates new form FrmCadastroFuncionarios
      */
-    String strCaminhoArquivo = "C:\\Users\\erixk\\OneDrive\\Documentos\\CadastrarClientes\\CadastrarClientes\\src\\main\\java\\banco\\FUNCIONARIOS.txt";
+    String strCaminhoArquivo = "src\\main\\java\\banco\\FUNCIONARIOS.txt";
 
     public FrmCadastroFuncionarios() {
         initComponents();
